@@ -1,0 +1,10 @@
+^C:\USERS\SEONU\DOCUMENTS\LUCKY_DRAW\BUILD\WINDOWS\X64\CMAKEFILES\632774C97BDD19B15A587D4B770D0D41\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
