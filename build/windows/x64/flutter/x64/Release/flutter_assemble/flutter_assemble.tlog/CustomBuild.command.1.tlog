@@ -1,0 +1,28 @@
+^C:\USERS\PC\DOCUMENTS\LUCKY_DRAW\BUILD\WINDOWS\X64\CMAKEFILES\88B681B9982D23D24DBE0D3517479C8E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\PC\flutter PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_ROOT=C:\Users\PC\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\PC\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/PC/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PC\DOCUMENTS\LUCKY_DRAW\BUILD\WINDOWS\X64\CMAKEFILES\ACBB605F4A8312F9D8A05D3591ED2A5C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PC\DOCUMENTS\LUCKY_DRAW\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/lucky_draw/windows -BC:/Users/PC/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/PC/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

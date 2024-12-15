@@ -1,0 +1,1 @@
+ C:\\Users\\PC\\Documents\\lucky_draw\\.dart_tool\\flutter_build\\3b445b402a461a577d1a937be7dbf1b8\\native_assets.yaml: 
