@@ -10,7 +10,7 @@ class DataSource {
   List<String> rowName = ['location', 'team', 'name', 'rank', 'image'];
 
   /// [path]경로에 있는 엑셀 파일을 읽어서 Info 객체 list로 반환하는 메소드
-  Future<List<Info>> getInfoList(path) async {
+  Future<List<Info>> getInfoList(String? path) async {
 
     if (null == path) {
       return [];
@@ -18,8 +18,13 @@ class DataSource {
 
     List<Info> players = [];
 
+    int idx = path.lastIndexOf('\\');
+    String fulPath = path.replaceRange(idx, path.length, '\\');
+    log(fulPath);
+
     Uint8List bytes;
     try {
+      log(path);
       bytes = File(path!).readAsBytesSync();
     } on PathNotFoundException catch (e){
       log('file not found: $e');
@@ -66,7 +71,7 @@ class DataSource {
             break;
 
           case 4:
-            tmp.image = cell.value.toString();
+            tmp.image = fulPath + cell.value.toString();
             break;
         }
       }

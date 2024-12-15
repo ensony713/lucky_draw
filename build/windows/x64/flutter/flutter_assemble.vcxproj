@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -18,9 +18,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{77882CF1-7151-37C6-9CE6-21C290E80423}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1885A7C2-FC77-3708-A454-404F197DA0C9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>flutter_assemble</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -29,17 +29,17 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -85,10 +85,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\seonu\Documents\lucky_draw\build\windows\x64\CMakeFiles\0cad8faaf81675a3d3abaa4a532adaea\flutter_windows.dll.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+    <CustomBuild Include="C:\Users\PC\Documents\lucky_draw\build\windows\x64\CMakeFiles\88b681b9982d23d24dbe0d3517479c8e\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\seonu\flutter PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_ROOT=C:\Users\seonu\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_TARGET=C:\Users\seonu\Documents\lucky_draw\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\seonu\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/seonu/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\PC\flutter PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_ROOT=C:\Users\PC\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\PC\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/PC/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -97,12 +97,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\seonu\flutter PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_ROOT=C:\Users\seonu\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_TARGET=C:\Users\seonu\Documents\lucky_draw\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\seonu\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/seonu/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\PC\flutter PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_ROOT=C:\Users\PC\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\PC\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/PC/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -111,12 +111,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/seonu/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_export.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_windows.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/PC/Documents/lucky_draw/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\seonu\flutter PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_ROOT=C:\Users\seonu\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\seonu\Documents\lucky_draw FLUTTER_TARGET=C:\Users\seonu\Documents\lucky_draw\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\seonu\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/seonu/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\PC\flutter PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_ROOT=C:\Users\PC\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral PROJECT_DIR=C:\Users\PC\Documents\lucky_draw FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\PC\Documents\lucky_draw\.dart_tool\package_config.json C:/Users/PC/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,13 +125,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\seonu\Documents\lucky_draw\build\windows\x64\CMakeFiles\f2094a921a11d9548e3277bed544b599\flutter_assemble.rule">
+    <CustomBuild Include="C:\Users\PC\Documents\lucky_draw\build\windows\x64\CMakeFiles\acbb605f4a8312f9d8a05d3591ed2a5c\flutter_assemble.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -140,8 +140,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
@@ -152,8 +152,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -164,18 +164,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_export.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_windows.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\CMakeLists.txt">
-      <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/seonu/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
+    <CustomBuild Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/PC/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/seonu/Documents/lucky_draw/windows -BC:/Users/seonu/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/seonu/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/lucky_draw/windows -BC:/Users/PC/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/PC/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,12 +183,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/seonu/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/PC/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/seonu/Documents/lucky_draw/windows -BC:/Users/seonu/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/seonu/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/lucky_draw/windows -BC:/Users/PC/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/PC/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,12 +196,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/seonu/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/PC/Documents/lucky_draw/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/seonu/Documents/lucky_draw/windows -BC:/Users/seonu/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/seonu/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/PC/Documents/lucky_draw/windows -BC:/Users/PC/Documents/lucky_draw/build/windows/x64 --check-stamp-file C:/Users/PC/Documents/lucky_draw/build/windows/x64/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -209,18 +209,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\seonu\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble">
+    <None Include="C:\Users\PC\Documents\lucky_draw\build\windows\x64\flutter\CMakeFiles\flutter_assemble">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\seonu\Documents\lucky_draw\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{AC585F6E-5B59-3A44-819B-E00A802A452B}</Project>
+    <ProjectReference Include="C:\Users\PC\Documents\lucky_draw\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{FB6DFD0A-837D-3623-8770-AFA18D70D248}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

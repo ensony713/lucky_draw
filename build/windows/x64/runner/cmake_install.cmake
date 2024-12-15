@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/seonu/Documents/lucky_draw/windows/runner
+# Install script for directory: C:/Users/PC/Documents/lucky_draw/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -3,6 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:lucky_draw/model/Info.dart';
+import 'package:lucky_draw/randomDraw.dart';
 import 'package:lucky_draw/viewModel/infoViewModel.dart';
 import 'package:provider/provider.dart';
 
@@ -59,12 +60,16 @@ class _DataPickerState extends State<DataPicker> {
             style: Theme.of(context).textTheme.bodyMedium,
           ),
           const SizedBox(height: 16.0,),
-         Selector<InfoViewModel, List<Info>> (
+          Selector<InfoViewModel, List<Info>> (
            selector: (context, state) => state.infoList,
             builder: (context, data, child) {
               if (data.isNotEmpty) {
                 test = () {
-                  log('test');
+                  log('draw!');
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => RandomDraw())
+                  );
                 };
               } else {
                 test = null;

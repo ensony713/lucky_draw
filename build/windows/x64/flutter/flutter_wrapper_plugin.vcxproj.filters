@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{18AD16DC-F149-338D-B93F-1DEEEF9F666D}</UniqueIdentifier>
+      <UniqueIdentifier>{F34E0A6D-1F1F-32EF-B056-32C765EDDE17}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{508795ED-7BD0-352A-AE25-27385E7F33C3}</UniqueIdentifier>
+      <UniqueIdentifier>{8BBA107D-00CD-3404-9E35-645B5FF6FA92}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\flutter_window.cpp">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\runner\flutter_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\main.cpp">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\runner\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\utils.cpp">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\runner\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\win32_window.cpp">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\runner\win32_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\flutter\generated_plugin_registrant.cc">
+    <ClCompile Include="C:\Users\PC\Documents\lucky_draw\windows\flutter\generated_plugin_registrant.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\PC\Documents\lucky_draw\windows\runner\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="C:\Users\seonu\Documents\lucky_draw\windows\runner\Runner.rc">
+    <ResourceCompile Include="C:\Users\PC\Documents\lucky_draw\windows\runner\Runner.rc">
       <Filter>Source Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{508795ED-7BD0-352A-AE25-27385E7F33C3}</UniqueIdentifier>
+      <UniqueIdentifier>{8BBA107D-00CD-3404-9E35-645B5FF6FA92}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
